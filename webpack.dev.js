@@ -8,7 +8,6 @@ console.log(path.join(__dirname, '../build/public'));
 module.exports = {
 	mode: 'development',
 	devServer: {
-		contentBase: path.join(__dirname, '../build/public'),
 		compress: true,
 		port: 8000,
 		hot: true,
